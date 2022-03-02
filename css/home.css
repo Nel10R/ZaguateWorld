@@ -1,0 +1,90 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;net
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+  font-size:15px;
+}
+
+#main {
+  
+    border-right: 1px solid #fff;
+   text-align:center;
+    padding: 10px 25px 10px 25px;
+}
+
+
+#back {
+    color: white;
+    position: relative;
+    overflow: overlay;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: initial;
+    margin-top: 10px;
+}
+
+#container { 
+  background: transparent url(../images/grass.png) repeat-x bottom; 
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#menu li > a {
+    background-color: #53C7FD;
+    color: #FFF;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+    padding: 10px 100px 10px 20px;
+}
+
+    #menu li > a:hover {
+        color: #E5017D;
+    }
+
+#menu > li {
+    float: left;
+    text-align: center
+}
+
+    #menu > li > ul {
+        display: none;
+    }
+
+    #menu > li:hover > ul {
+        display: block;
+    }
+
+
+#texto .zaguatesgrandes {
+    text-align:left;
+    color: #E5017D;
+    vertical-align:central;
+}
